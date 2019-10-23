@@ -10,16 +10,16 @@ abstract class Animal{
 
 class Dog extends Animal{
 
-    private String dog="Dog";
+    private String dog="Elephant";
     
     @Override
     void shout() {
-        System.out.println(""+dog+" is barking");
+        System.out.println(""+dog+" is Runing");
     }
 
     @Override
     void run() {
-        System.out.println(""+dog+" is running");
+        System.out.println(""+Elephant+" is running");
     }
 
 }
